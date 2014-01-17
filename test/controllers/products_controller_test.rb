@@ -1,8 +1,8 @@
 require 'test_helper'
 class ProductsControllerTest < ActionController::TestCase
   setup do
-    @product = products(:one)
-     @update = {
+      @product = products(:one)
+      @update = {
       title:        'Lorem Ipsum',
       description:  'Wibbles are fun!',
       image_url:    'lorem.jpg',
@@ -36,4 +36,3 @@ test "should update product" do
 end
 # ...
 end
-
