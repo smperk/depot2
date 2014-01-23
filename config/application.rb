@@ -52,7 +52,7 @@ module Depot
 
     # Enable the asset pipeline
     config.assets.enabled = true
-
+    # config.autoload_paths += %W(#{config.root}/app/controllers/concerns)
     # Version of your assets, change this if you want to expire all your assets
     config.assets.version = '1.0'
   end
